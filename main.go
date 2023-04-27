@@ -20,7 +20,7 @@ type PageData struct {
 
 func todo(w http.ResponseWriter, r *http.Request) {
 	data := PageData{
-		Title: "TODO LIST",
+		Title: "TODO LIST CHANGE",
 		Todos: []Todo{
 			{Item: "Install GO", Done: true},
 			{Item: "Learn Go", Done: false},
